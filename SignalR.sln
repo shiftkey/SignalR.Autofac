@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{1E4BA77C-4977-40AA-B297-3A2CB9990ABF}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Build.proj = Build\Build.proj
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Autofac", "SignalR.Autofac\SignalR.Autofac.csproj", "{3C7D68F7-67CA-42BC-852B-8B307B13D2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Autofac.Tests", "SignalR.Autofac.Tests\SignalR.Autofac.Tests.csproj", "{D8FF49BD-E326-45B3-AD5B-867FB1AE0FB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C7D68F7-67CA-42BC-852B-8B307B13D2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7D68F7-67CA-42BC-852B-8B307B13D2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7D68F7-67CA-42BC-852B-8B307B13D2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7D68F7-67CA-42BC-852B-8B307B13D2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FF49BD-E326-45B3-AD5B-867FB1AE0FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FF49BD-E326-45B3-AD5B-867FB1AE0FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FF49BD-E326-45B3-AD5B-867FB1AE0FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FF49BD-E326-45B3-AD5B-867FB1AE0FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
