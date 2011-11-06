@@ -22,7 +22,7 @@
     </Target>
     
     <Target Name="Build" DependsOnTargets="CreateOutputDir">
-        <MSBuild Projects="$(ProjectRoot)\SignalR.sln" Targets="Build" Properties="Version=$(Version);PackageOutputDir=$(ArtifactsDir);Configuration=$(Configuration)" />
+        <MSBuild Projects="$(ProjectRoot)\SignalR.Autofac.sln" Targets="Build" Properties="Version=$(Version);PackageOutputDir=$(ArtifactsDir);Configuration=$(Configuration)" />
     </Target>
     
     <Target Name="BuildPackages">

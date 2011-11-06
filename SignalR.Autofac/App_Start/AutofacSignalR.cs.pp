@@ -31,7 +31,7 @@ namespace $rootnamespace$.App_Start
         /// <summary>
         /// Load your modules or register your services here!
         /// </summary>
-        /// <param name="kernel">The container builder.</param>
+        /// <param name="builder">The container builder.</param>
         private static void RegisterServices(ContainerBuilder builder)
         {
         }
